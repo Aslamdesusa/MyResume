@@ -1,0 +1,140 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-image: url(img/background_02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#nav{
+    width: 80%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+#nav_wrapper{
+    width: 90%;
+    background: #5d4742;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-bottom: 6%;
+    opacity: 0.9;
+    filter: drop-shadow(opacity = 70);
+    border-radius: 10px;
+    box-shadow: 2px 5px 2px 10px #888888;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+#nav_wrapper ul li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    padding: 20px; 
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
+
+#nav_wrapper a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+#nav_wrapper ul li:hover{
+    background: deeppink;
+    color: white;
+    transition: all 0.45s;
+}
+#nav_wrapper ul li:active{
+    font-size: 20px;
+}
+hr{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.hr{
+    border: 1px solid #888;
+    width: 80%;
+}
+.img{
+    border: 2px solid black;
+    border-radius: 300px;
+    display: flex;
+    margin-left: 10%;
+    
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+#jumbotron{
+    display: flex;
+    padding-top: 40px;
+}
+.aboutme{
+    margin-left: 80px;
+    
+    
+     
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+p{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: 'Cinzel', serif;
+}
+.asl{
+    margin-top: 60px;
+}
+.images{
+    border-radius: 100px;
+    border: 2px solid black;
+/*    margin-right: 70px;*/
+    margin-top: 30px;
+}
+#jumbo{
+    display: flex;
+    justify-content: space-around;
+}
+.bap{
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.n{
+    margin-top: 30px;
+}
+#bap2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: -webkit-justify;
+}
+.personal{
+    text-align: justify;
+}
